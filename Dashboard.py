@@ -18,7 +18,7 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:.2f} milhões'
 
 # Título principal do dashboard
-st.title('DASHBOARD DE VENDAS 🛒')
+st.title('PROJETO DASHBOARD DE VENDAS 🛒')
 
 # URL da API com os dados
 url = 'https://labdados.com/produtos'
