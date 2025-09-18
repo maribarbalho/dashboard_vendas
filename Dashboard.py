@@ -5,7 +5,7 @@ import plotly.express as px
 
 # Configurações iniciais da página no Streamlit
 st.set_page_config(
-    page_title="DASHBOARD DE VENDAS 🛒",
+    page_title="DASHBOARD DE VENDAS",
     layout="wide"
 )
 

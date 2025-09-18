@@ -48,5 +48,7 @@ python -m venv .venv
 # Linux/Mac: source .venv/bin/activate
 # Windows: .venv\Scripts\activate
 
+# Após criação do ambiente virtual execute os comandos abaixo via terminal:
+pip install streamlit
 pip install -r requirements.txt
 streamlit run Dashboard.py
