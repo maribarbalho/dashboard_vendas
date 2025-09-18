@@ -1,4 +1,4 @@
-# dashboard_vendas# 📊 Dashboard de Vendas e Dados Brutos
+# 📊 Dashboard de Vendas e Dados Brutos
 
 Este projeto é uma aplicação interativa construída com **[Streamlit](https://streamlit.io/)** para análise e visualização de dados de vendas.  
 
@@ -35,3 +35,21 @@ O sistema consome dados de uma API pública fictícia (`https://labdados.com/pro
 - [Pandas](https://pandas.pydata.org/)  
 - [Plotly Express](https://plotly.com/python/plotly-express/)  
 - [Requests](https://docs.python-requests.org/)  
+
+
+## ▶️ Como executar o projeto
+
+# Clone o repositório
+git clone https://github.com/maribarbalho/dashboard_vendas.git
+cd dashboard_vendas
+
+# Crie e ative um ambiente virtual (opcional)
+python -m venv .venv
+source .venv/bin/activate   # Linux/Mac
+# .venv\Scripts\activate    # Windows (descomente esta linha se estiver no Windows)
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Execute a aplicação com Streamlit
+streamlit run Dashboard.py
